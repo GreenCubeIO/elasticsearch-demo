@@ -86,5 +86,5 @@ curl -X POST -H "Content-type: application/json" -d "{ \"file\": \"$(base64 lore
 
 Expected result:
 ```json
-{ok: 1}
+{"ok": 1}
 ```
