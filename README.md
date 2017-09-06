@@ -78,7 +78,7 @@ Expected result:
 Uploading
 ---------
 
-be sure that there's a pdf called lorem in the current directory before running the following command
+be sure that there's a pdf called `lorem.pdf` in the current directory before running the following command
 
 ```bash
 curl -X POST -H "Content-type: application/json" -d "{ \"file\": \"$(base64 lorem.pdf)\"}" app:3000/
