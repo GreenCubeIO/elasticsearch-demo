@@ -1,0 +1,31 @@
+{
+  "name": "index-docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "watch": "./node_modules/mocha/bin/mocha -w",
+    "test": "./node_modules/mocha/bin/mocha"
+  },
+  "keywords": [
+    "elasticsearch",
+    "index",
+    "doc",
+    "pdf"
+  ],
+  "author": "Giancarlo Palavicini",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "elasticsearch": "^13.3.1",
+    "express": "^4.15.4"
+  },
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0",
+    "mockery": "^2.1.0",
+    "rewire": "^2.5.2",
+    "sinon": "^3.2.1",
+    "supertest": "^3.0.0"
+  }
+}

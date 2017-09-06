@@ -1,0 +1,4 @@
+--require ./test/spec.helper
+--require mockery
+--require sinon
+--ui bdd
